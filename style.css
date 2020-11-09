@@ -4,3 +4,14 @@
     font-family: 'Ubuntu', sans-serif;
     color: #807663
 }
+
+.principal {
+    background-color: gray;
+    height:40px;
+    max-width: width 60%
+    
+}
+.principal li{
+    display: inline;
+    line-height: 2.5
+}
