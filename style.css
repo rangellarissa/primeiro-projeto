@@ -9,9 +9,11 @@
     background-color: gray;
     height:40px;
     max-width: width 60%
-    
+    margin: 0 auto
+       
 }
 .principal li{
     display: inline;
     line-height: 2.5
+    margin: 0 89px;
 }
