@@ -1,29 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap');
 
 * {
     font-family: 'Ubuntu', sans-serif;
     color: black;
 }
 body {
-    text-align: center;
-    background-color: #515c80;
-    color:#fff;
     margin-bottom: 30px;
   }
   
-  h2{
-    color:#0a1338;
-    font-size: 40px;
+  .container{
+    margin: 20%;
   }
-  
-  section{
-    width:60%;
-    margin: 0 auto;
+
+  h2{
+    font-weight: bold;
   }
  
   h1{
     font-size: 60px;
     font-weight: 300px;
+    font-weight: bold;
   }
     
   p{
@@ -32,34 +28,12 @@ body {
   }
   
   img{
-    width: 50%;
+    width: 30%;
+    filter: grayscale(100%);
   }
   
   ul{
     list-style-type: none;
     line-height: 2;
     padding-left: 0;
-  }
-  
-  a{
-    text-decoration: none;
-    color:#99ffff;
-    font-weight: 700;
-  }
-  .menu {
-    background-color: #252947;
-    height:40px;
-    width:80%;
-    margin:0 auto;
-  }
-  .menu li{
-    display: inline;
-    line-height:2.5;
-    margin:0 89px;
-  }
-  
-  .menu a{
-    color:#fff;
-    text-decoration: underline;
-    font-weight:normal;
   }
