@@ -9,7 +9,48 @@ body {
   }
   
   .container{
-    margin: 20%;
+    margin: 0 10%;
+  }
+
+  .title{
+    width: 20%;
+    display: inline-block;
+    margin: 0 80px;
+  }
+
+  .title h1{
+    /* transform: rotate(-90deg); */
+  } 
+
+  .image{
+    width: 20%;
+    display: inline-block;
+    margin: 0 80px;
+  }
+
+  .image img{
+    width: 100%;
+  }
+
+  .contact{
+    width: 20%;
+    display: inline-block;
+    margin: 0 80px;
+  }
+
+  .contact p{
+    margin: 0;
+    font-size: 16px;
+  }
+
+  .description p{
+    text-align: center;
+  }
+
+  .description .marcacao{
+    width: 20px;
+    height: 10px;
+    background-color: black;
   }
 
   h2{
