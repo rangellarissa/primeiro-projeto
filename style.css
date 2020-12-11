@@ -68,18 +68,44 @@ body {
   }
   
   .values, .graduation {
-    width: 45%;
-    height: 400px;
+    width: 49%;
     display: inline-block;
   }
 
-  .values .columns{
+  .columns{
     width: 40%;
     display: inline-block;
   }
 
   .values p{
-    margin:0;
+    margin:5px 0;
+  }
+
+  .bloco{
+    width: 49%;
+    display: inline-block;
+  }
+
+  .nivel-1, .nivel-2, .nivel-3{
+    width: 200px;
+    height: 17px;
+    margin: 30px;
+  }
+
+  .languages .nivel-1{
+    background-color: black;
+  }
+
+  .languages .nivel-2{
+    background-color: red;
+  }
+
+  .languages .nivel-3{
+    background-color: green;
+  }
+ 
+  .languages, .skills{
+    margin-top: 50px;
   }
 
   h2{
