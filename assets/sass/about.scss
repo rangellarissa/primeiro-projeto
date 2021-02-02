@@ -1,0 +1,50 @@
+  .values, .graduation {
+    width: 49%;
+    display: inline-block;
+  }
+
+  .columns{
+    width: 40%;
+    display: inline-block;
+  }
+
+  .values p{
+    margin:5px 0;
+  }
+
+  .bloco{
+    width: 49%;
+    display: inline-block;
+  }
+
+  .languages .columns:nth-child(even){
+    width: 20%;
+  }
+
+  .nivel-1, .nivel-2, .nivel-3{
+    height: 17px;
+  }
+
+  .languages .nivel-1{
+    background-color: black;
+    margin-bottom: 30px;
+    width: 100%
+  }
+
+  .languages .nivel-2{
+    background-color: black;
+    margin-bottom: 30px;
+    width: 80%
+  }
+
+  .languages .nivel-3{
+    background-color: black;
+    margin-bottom: 0;
+    width: 70%
+  }
+ 
+  .languages, .skills{
+    margin-top: 50px;
+  }
+
+
