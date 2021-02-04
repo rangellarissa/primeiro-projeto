@@ -1,9 +1,14 @@
+@import 'colors';
+@import 'header';
+@import 'description';
+@import 'about';
+@import 'footer';
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap');
 
 * {
     font-family: 'Ubuntu', sans-serif;
-    color: black;
-}
+    color: $preto;
+  }
 body {
     margin: 0;
   }

@@ -1,49 +1,55 @@
-  .values, .graduation {
-    width: 49%;
-    display: inline-block;
-  }
+@import 'colors';
 
-  .columns{
-    width: 40%;
-    display: inline-block;
-  }
-
-  .values p{
+.values{
+  width: 49%;
+  display: inline-block;
+  p{
     margin:5px 0;
   }
+}
 
-  .bloco{
+.graduation {
     width: 49%;
     display: inline-block;
   }
 
-  .languages .columns:nth-child(even){
+.columns{
+  width: 40%;
+  display: inline-block;
+}
+
+.bloco{
+  width: 49%;
+  display: inline-block;
+}
+
+.languages{
+  margin-top: 50px;
+  .columns:nth-child(even){
     width: 20%;
   }
-
-  .nivel-1, .nivel-2, .nivel-3{
-    height: 17px;
-  }
-
-  .languages .nivel-1{
-    background-color: black;
+  .nivel-1{
+    background-color: $preto;
     margin-bottom: 30px;
-    width: 100%
+    width: 100%  
   }
-
-  .languages .nivel-2{
-    background-color: black;
+  .nivel-2{
+    background-color: $preto;
     margin-bottom: 30px;
     width: 80%
   }
-
-  .languages .nivel-3{
-    background-color: black;
+  .nivel-3{
+    background-color: $preto;
     margin-bottom: 0;
     width: 70%
   }
- 
-  .languages, .skills{
+}
+
+.nivel-1, .nivel-2, .nivel-3{
+  height: 17px;
+}
+
+.skills{
     margin-top: 50px;
   }
 

@@ -1,15 +1,16 @@
+@import 'colors';
+
 .description {
-    margin-bottom: 10%;
-  }
-
-  .description p{
+  margin-bottom: 10%;
+  p{
     text-align: center;
-    font-weight: bold;
+    font-weight: bold;  
   }
-
-  .description .marcacao{
+  .marcacao{
     width: 10px;
     height: 5px;
-    background-color: black;
+    background-color: $preto;
     margin-left: 36%;
+    }
   }
+
